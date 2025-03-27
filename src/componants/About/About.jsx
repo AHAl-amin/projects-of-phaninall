@@ -18,7 +18,7 @@ function About() {
             <div className='flex justify-between gap-10  items-center my-20'>
                 <div className='w-full'>
 
-                    <img className='w-[465px]' src={AboutImgOne} alt="" />
+                    <img className='w-[465px] ' src={AboutImgOne} alt="" />
                 </div>
                 <div className='w-full space-y-10 text-[16px]'>
                     <p>
@@ -31,7 +31,7 @@ function About() {
                     </p>
                     <Link
                         href="#"
-                        className="inline-flex items-center justify-center gap-2 rounded-md hover:bg-[#FF7A00] px-4 py-2 text-sm font-medium text-white border border-[#E86F00] transition-colors"
+                        className="inline-flex items-center justify-center gap-2 rounded-md hover:bg-[#FF7A00] px-4 py-2 text-sm font-medium text-black hover:text-[#FFFFFF] border border-[#E86F00] transition-colors w-[167px] h-[56px]"
                     >
                         Read More <BsArrowRight className="h-4 w-4" />
                     </Link>
