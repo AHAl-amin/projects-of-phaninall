@@ -5,6 +5,7 @@ import About from '../../componants/About/About'
 import NAICScodes from '../../componants/NAICScodes/NAICScodes'
 import OurService from '../../componants/OurService/OurService'
 import ContactInput from '../../componants/ContactInput/ContactInput'
+import ContactBanner from '../../componants/ContactBanner/ContactBanner'
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <OurService></OurService>
      <div className='bg-[#F5F5F5]'>	
      <ContactInput></ContactInput>
+     <ContactBanner></ContactBanner>
      </div>
     </div>
   )

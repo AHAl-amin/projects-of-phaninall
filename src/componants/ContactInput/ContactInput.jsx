@@ -13,7 +13,7 @@ function ContactInput() {
         <div className="w-[460px] ">
           <div className=" mb-6">
             <p className="text-[#FF6C0A] font-medium text-[20px]">Contact Information</p>
-            <h2 className="text-[44px] font-medium text-gray-800 mt-1">Get In Touch</h2>
+            <h2 className="text-[44px] font-medium text-gray-800 ml-2">Get In Touch</h2>
           </div>
 
           <div className="space-y-5">
