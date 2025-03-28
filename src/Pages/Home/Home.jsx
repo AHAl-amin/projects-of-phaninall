@@ -4,6 +4,7 @@ import Banner from '../../componants/Banner/Banner'
 import About from '../../componants/About/About'
 import NAICScodes from '../../componants/NAICScodes/NAICScodes'
 import OurService from '../../componants/OurService/OurService'
+import ContactInput from '../../componants/ContactInput/ContactInput'
 
 function Home() {
   return (
@@ -12,11 +13,14 @@ function Home() {
       <Banner></Banner>
       <About></About>
 
-      <div className='bg-[#F5F5F5] p-20'>
+      <div className='bg-[#F5F5F5]'>
 
         <NAICScodes></NAICScodes>
       </div>
       <OurService></OurService>
+     <div className='bg-[#F5F5F5]'>	
+     <ContactInput></ContactInput>
+     </div>
     </div>
   )
 }

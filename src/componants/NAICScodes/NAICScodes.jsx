@@ -49,7 +49,7 @@ function NAICScodes() {
         },
     ]
     return (
-        <div className='font-lora max-w-[80%] mx-auto space-y-10 '>
+        <div className='font-lora max-w-[80%] mx-auto space-y-10 py-20 '>
             <h1 className='text-[40px] text-center font-semibold'>
                 NAICS Codes
             </h1>
